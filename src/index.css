@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #fbbf24;
+  --secondary-color: #333333;
+  --background-color: #1a1a1a;
+  --text-color: #ffffff;
+  --accent-color: #f97316;
+}
+/* Manicure o de baix */
+/* :root {
+  --primary-color: #db7093; 
+  --secondary-color: #ffd1dc;
+  --background-color: #ffffff; 
+  --text-color: #212121; 
+  --accent-color: #e91e63;
+} */
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+.react-datepicker-wrapper {
+  width: 100%;
+}
